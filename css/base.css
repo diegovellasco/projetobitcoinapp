@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+<style type="text/css">
+	.logo{
+		color:#333;
+		font:"Courier New", Courier, monospace;
+		font:bold;
+	}
+	.divborda {
+		border:dashed #306;
+		border-radius: 10px;
+	}
+	body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 80%;
+	color: black;
+	/* [disabled]background-color: #FFFFDF; */
+	margin: 1em;
+	padding: 0;
+}
+
+/* Isso é um comentário */
+
+p {
+	line-height: 1.5em;
+}
+
+h1 {
+	color: #FFF;
+	background-color: #333;
+	font-size: 2em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.25em;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5em;
+	border-bottom-color: #39F;
+}
+#pagewrap {
+	padding: 5px;
+	margin: 20px auto;
+}
+#content {
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	
+	padding: 5px 15px;
+	float: left;
+}
+#footer {
+	clear: both;
+	padding: 0 15px;
+	background-color:#F5F5F5;
+}
